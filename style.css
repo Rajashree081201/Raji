@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+   
+    background: black;
+    color: white;
+}
+
+.header{
+    width: 60%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/netflix\ bg\ image.png');
+    background-size: cover;
+    background-position: calc();
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 155px;
+    opacity: 150%;
+    cursor: pointer;
+}
+
+nav button{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn1{
+    display:inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+}
+
+.btn1 img{
+    width: 10px;
+    margin-left: 10px;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 80px;
+}
+
+.content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 550;
+    max-width: 650px;
+}
+
+.content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.signup{
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+    outline: 0;
+    border: 0;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    
+}
+
+.signup button{
+    background: red;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 16px 40px;
+}
+
+.images{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-right{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+
+.img-right img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    
+}
+
+.images h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.faq{
+    width: 100%;
+}
+
+.faq h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.faq .questions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq .questions button{
+    padding: 20px 50px;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    background:rgb(18, 18, 18);
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+
+.faq .questions button:hover{
+    background:rgb(34, 32, 32);
+}
+
+.faq .questions button::after{
+    content: "+";
+    float: right;
+    font-size: 30px;
+}
+
+.faq questions{
+    background: black;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+
+.faq .signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+
+}
+
+.faq small{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 4px solid #333;
+    color: #777;
+}
+
+.footer h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.footer .btn1{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.txt{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
